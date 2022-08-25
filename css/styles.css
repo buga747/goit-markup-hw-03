@@ -184,7 +184,7 @@ ul {
 
 /* герой */
 
-.hero .section {
+.hero {
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -404,6 +404,11 @@ ul {
     font-size: 16px;
 
     padding: 6px 22px;
+}
+
+.btn.portfolio-btn.active {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
 }
 
 /* .portfolio-btn:first-child {
